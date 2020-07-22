@@ -1,12 +1,12 @@
 .infoCardHeadline {
-  max-width: 1260px;
   font-family: serif;
   font-size: 2.25rem;
-  font-weight: bold;
-  color: black;
+  font-weight: normal;
+  color: gray;
   border: 2px solid black;
   padding: 0;
   margin: 0 auto;
+  max-width: 1260px;
 }
 
 .infoCardCallActionContainer :global(.vtex-button) {
