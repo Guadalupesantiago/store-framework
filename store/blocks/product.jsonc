@@ -32,14 +32,6 @@
   "flex-layout.row#qty-sku": {
     "children": ["sku-selector", "product-quantity"]
   },
-
-  "sku-selector": {
-    "props": {
-      "initialSelection": "empty",
-      "showValueNameForImageVariation": true,
-      "showVariationsErrorMessage": true
-    }
-  },
   "product-price": {
     "props": {
       "showSavings": true,
@@ -53,6 +45,14 @@
     "props": {
       "displayMode": "logo",
       "height": "30"
+    }
+  },
+
+  "sku-selector": {
+    "props": {
+      "initialSelection": "empty",
+      "showValueNameForImageVariation": true,
+      "showVariationsErrorMessage": true
     }
   }
 }
