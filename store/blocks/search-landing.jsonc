@@ -9,6 +9,7 @@
     }
   },
   "search-result-layout.customQuery": {
+    "blocks": ["search-result-layout.desktop"],
     "props": {
       "orderByField": "OrderByReleaseDateDESC",
       "hideUnavailableItems": true,
