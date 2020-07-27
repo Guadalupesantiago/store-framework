@@ -21,5 +21,8 @@
       "alt": "Coffee Makers Collection",
       "maxWidth": "200px"
     }
+  },
+  "vtex.menu@2.x:submenu#major": {
+    "children": ["flex-layout.row#major"]
   }
 }
