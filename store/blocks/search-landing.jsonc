@@ -1,0 +1,19 @@
+{
+  "store.custom#landing": {
+    "blocks": ["image", "search-result-layout.customQuery"]
+  },
+  "image": {
+    "props": {
+      "minWidth": "100%",
+      "src": "https://extrato.vtex.com/images/ecomsur_1000026_ecomsur.png"
+    }
+  },
+  "search-result-layout.customQuery": {
+    "props": {
+      "orderByField": "OrderByReleaseDateDESC",
+      "hideUnavailableItems": true,
+      "maxItemsPerPage": 8,
+      "queryField": "Blue Top Retro Camera"
+    }
+  }
+}
