@@ -6,7 +6,7 @@
       "itemProps": {
         "text": "Major Aplliances"
       }
-    },
+    }, //-----
     "blocks": ["vtex.menu@2.x:submenu#major"]
   },
   "menu-item#small-appliances": {
@@ -91,8 +91,8 @@
       }
     }
   },
-  "props": {
-    "menu-item#tvs": {
+  "menu-item#tvs": {
+    "props": {
       "type": "category",
       "highlight": true,
       "itemProps": {
