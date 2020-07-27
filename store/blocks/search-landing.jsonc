@@ -1,12 +1,12 @@
 {
-  //-------------------------------------busqueda -----------------
   "store.custom#landing": {
     "blocks": ["image", "search-result-layout.customQuery"]
   },
   "image": {
     "props": {
+      "src": "https://extrato.vtex.com/images/ecomsur_1000026_ecomsur.png",
       "minWidth": "100%",
-      "src": "https://extrato.vtex.com/images/ecomsur_1000026_ecomsur.png"
+      "height": 100
     }
   },
   "search-result-layout.customQuery": {
