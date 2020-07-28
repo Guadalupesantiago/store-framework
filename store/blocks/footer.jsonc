@@ -17,8 +17,12 @@
     }
   },
   "flex-layout.col#footer-left-desktop": {
-    "children": ["social-networks", "accepted-payment-methods", "powered-by"]
+    "children": ["accepted-payment-methods", "powered-by"]
   },
+  "flex-layout.col#footer-right-desktop": {
+    "children": ["social-networks"]
+  },
+
   "social-networks": {
     "props": {
       "socialNetworks": [
