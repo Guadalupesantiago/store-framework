@@ -22,9 +22,9 @@
   "flex-layout.col#footer-right-desktop": {
     "children": ["social-networks"]
   },
-
   "social-networks": {
     "props": {
+      "showInColor": true,
       "socialNetworks": [
         { "url": "https://facebook.com/", "name": "Facebook" },
         { "url": "https://instagram.com/", "name": "Instragram" },
@@ -35,6 +35,7 @@
 
   "accepted-payment-methods": {
     "props": {
+      "showInColor": true,
       "paymentMethods": ["Mastercard", "Visa", "Diners Club"]
     }
   }
