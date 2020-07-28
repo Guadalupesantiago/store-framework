@@ -19,14 +19,6 @@
   "flex-layout.col#footer-left-desktop": {
     "children": ["social-networks", "accepted-payment-methods", "powered-by"]
   },
-  "flex-layout.row#footer-mobile": {
-    "children": ["social-networks", "accepted-payment-methods", "powered-by"]
-  },
-  "accepted-payment-methods": {
-    "props": {
-      "paymentMethods": ["Mastercard", "Visa", "Diners Club"]
-    }
-  },
   "social-networks": {
     "children": ["flex-layout.col#footer-right-desktop"],
     "props": {
@@ -35,6 +27,12 @@
         { "url": "https://instagram.com/foo", "name": "Instragram" },
         { "url": "https://twitter.com/foo", "name": "Twitter" }
       ]
+    }
+  },
+
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": ["Mastercard", "Visa", "Diners Club"]
     }
   }
 }
